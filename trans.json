@@ -1,0 +1,19 @@
+{	"botkey":	"177451312:AAGewQKdnszmAAvnWP0qZFTemT6AnYyF5LU",
+	"graphfiles":	"./graph/",
+	"ohabhttp":	"https://pytely.homeip.net/",
+	"serverkey":	"../server.key",
+	"pemfile":	"../pytely.pem",
+	"httpport":	8124,
+	"httpsport":	8143,
+	"graphs": [
+		{"text":"Температура", 	"type":"groups", "name":"Temp",		"period":"W" },
+		{"text":"Мощность", 	"type":"groups", "name":"ACpower",	"period":"D" },
+		{"text":"Ветер",	"type":"items",  "name":"MeWind", 	"period":"W" },
+		{"text":"Облачность", 	"type":"items",  "name":"MeClouds", 	"period":"W" },
+		{"text":"Давление", 	"type":"items",  "name":"MePressure", 	"period":"W" },
+		{"text":"Влажность", 	"type":"items",  "name":"MeHumidity", 	"period":"W" },
+		{"text":"Промывки", 	"type":"groups", "name":"Flashing", 	"period":"M" },
+		{"text":"Батарея", 	"type":"groups", "name":"Battery", 	"period":"D" },
+		{"text":"Сеть", 	"type":"groups", "name":"InputVoltage",	"period":"D" }
+]
+}
